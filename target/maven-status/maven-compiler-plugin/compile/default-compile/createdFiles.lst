@@ -1,2 +1,4 @@
+org/meteorology/swat/ncdc/parse/NCDCParse.class
 org/meteorology/swat/ncdc/parse/StateUtility.class
+org/meteorology/swat/ncdc/parse/StartAndEndDates.class
 org/meteorology/swat/ncdc/parse/App.class
