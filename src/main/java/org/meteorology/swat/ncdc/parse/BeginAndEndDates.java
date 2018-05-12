@@ -3,28 +3,28 @@ package org.meteorology.swat.ncdc.parse;
 import java.util.Date;
 
 /**
- * The start and end dates for making the call to NOAA.
+ * The begin and end dates for making the call to NOAA.
  * @author Krishnan Subramanian
  *
  */
-public class StartAndEndDates {
-	private Date startDate;
+public class BeginAndEndDates {
+	private Date beginDate;
 	private Date endDate;
 	
 	/**
 	 * 
-	 * @return The start date.
+	 * @return The begin date.
 	 */
-	public Date getStartDate() {
-		return startDate;
+	public Date getBeginDate() {
+		return beginDate;
 	}
 	
 	/**
 	 * 
-	 * @param startDate The start date.
+	 * @param beginDate The begin date.
 	 */
-	public void setStartDate(Date startDate) {
-		this.startDate = startDate;
+	public void setBeginDate(Date startDate) {
+		this.beginDate = startDate;
 	}
 	
 	/**

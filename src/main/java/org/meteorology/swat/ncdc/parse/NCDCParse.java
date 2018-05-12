@@ -52,11 +52,11 @@ public final class NCDCParse {
 	 * @param state The US state.
 	 * @return The URL string.
 	 */
-	public static String constructURL(StartAndEndDates startAndEndDates, String state) {
+	public static String constructURL(BeginAndEndDates beginAndEndDates, String state) {
 		
 		//Calendar instances - To be changed to Java 8 time package.
-		Calendar beginDate = getCalendarInstance(startAndEndDates.getStartDate());
-		Calendar endDate = getCalendarInstance(startAndEndDates.getEndDate());
+		Calendar beginDate = getCalendarInstance(beginAndEndDates.getBeginDate());
+		Calendar endDate = getCalendarInstance(beginAndEndDates.getEndDate());
 		
 		StringBuilder urlBuilder = new StringBuilder();
 		
